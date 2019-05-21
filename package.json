@@ -1,0 +1,19 @@
+{
+  "name": "pg-es-loader",
+  "version": "1.0.0",
+  "description": "Postgres to Elasticsearch Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Varley <mark@addresscloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "deep-compact": "^1.1.0",
+    "elasticsearch": "^15.1.1",
+    "elasticsearch-streams": "0.0.10",
+    "pg": "^7.5.0",
+    "pg-query-stream": "^1.1.2",
+    "stream-chain": "^2.0.3"
+  }
+}
